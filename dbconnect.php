@@ -2,7 +2,7 @@
 $servername="localhost";
 $username="root";
 $password="";
-$dbname="food_db";
+$dbname="prj_php_food_db";
 $conn=new mysqli($servername,$username,$password,$dbname);
 if($conn->connect_error)
 {
